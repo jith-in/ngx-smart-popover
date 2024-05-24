@@ -28,7 +28,6 @@
                         ],
                         "scripts": [],
                         "baseHref": "/ngx-smart-popover/",
-                        "deployUrl": "/ngx-smart-popover/",
                         "vendorChunk": true,
                         "extractLicenses": false,
                         "buildOptimizer": false,
@@ -99,18 +98,6 @@
                             "src/assets"
                         ]
                     }
-                },
-                "lint": {
-                    "builder": "@angular-devkit/build-angular:tslint",
-                    "options": {
-                        "tsConfig": [
-                            "src/tsconfig.app.json",
-                            "src/tsconfig.spec.json"
-                        ],
-                        "exclude": [
-                            "**/node_modules/**"
-                        ]
-                    }
                 }
             }
         },
@@ -129,15 +116,6 @@
                         "production": {
                             "devServerTarget": "ngx-smart-popover-demo:serve:production"
                         }
-                    }
-                },
-                "lint": {
-                    "builder": "@angular-devkit/build-angular:tslint",
-                    "options": {
-                        "tsConfig": "e2e/tsconfig.e2e.json",
-                        "exclude": [
-                            "**/node_modules/**"
-                        ]
                     }
                 }
             }
@@ -166,18 +144,6 @@
                         "main": "projects/ngx-smart-popover/src/test.ts",
                         "tsConfig": "projects/ngx-smart-popover/tsconfig.spec.json",
                         "karmaConfig": "projects/ngx-smart-popover/karma.conf.js"
-                    }
-                },
-                "lint": {
-                    "builder": "@angular-devkit/build-angular:tslint",
-                    "options": {
-                        "tsConfig": [
-                            "projects/ngx-smart-popover/tsconfig.lib.json",
-                            "projects/ngx-smart-popover/tsconfig.spec.json"
-                        ],
-                        "exclude": [
-                            "**/node_modules/**"
-                        ]
                     }
                 }
             }

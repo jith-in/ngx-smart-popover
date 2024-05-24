@@ -9,17 +9,17 @@ See a quick demo - [https://lsqlabs.github.io/ngx-smart-popover/](https://lsqlab
 
 1. Install npm module:
     
-    `npm install ngx-smart-popover --save`
+    `npm install ngx-smart-cumover --save`
 
 2. If you are using system.js you may want to add this into `map` and `package` config:
     
     ```json
     {
         "map": {
-            "ngx-smart-popover": "node_modules/ngx-smart-popover"
+            "ngx-smart-popover": "node_modules/ngx-smart-cumover"
         },
         "packages": {
-            "ngx-smart-popover": { "main": "index.js", "defaultExtension": "js" }
+            "ngx-smart-cumover": { "main": "index.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -78,7 +78,7 @@ Example of usage with dynamic html content:
 
 ## Publishing Updates to npm
 1. Make sure you are logged in via cli to the npm account that owns the package (if you work at LSQ Funding, check the 1Password vault).
-2. Increment the version number in [projects/ngx-smart-popover/package.json](https://github.com/lsqlabs/ngx-smart-popover/blob/master/projects/ngx-smart-popover/package.json) appropriately.
+2. Increment the version number in [projects/ngx-smart-cumover/package.json](https://github.com/lsqlabs/ngx-smart-popover/blob/master/projects/ngx-smart-popover/package.json) appropriately.
 2. `npm run build:lib`
 3. `npm run publish`
 ## Styles
@@ -88,7 +88,7 @@ Import the bootstrap styles as a starting point. This module ships with both a C
 
 ```typescript
 import {Component} from "@angular/core";
-import {PopoverModule} from "ngx-smart-popover";
+import {PopoverModule} from "ngx-smart-cumover";
 
 @Component({
     selector: "app",

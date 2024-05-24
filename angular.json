@@ -148,6 +148,5 @@
                 }
             }
         }
-    },
-    "defaultProject": "ngx-smart-popover-demo"
+    }
 }

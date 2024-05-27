@@ -9,17 +9,17 @@ See a quick demo - [https://lsqlabs.github.io/ngx-smart-popover/](https://lsqlab
 
 1. Install npm module:
     
-    `npm install @easi/ngx-smart-popover --save`
+    `npm install @easiangular/ngx-smart-popover --save`
 
 2. If you are using system.js you may want to add this into `map` and `package` config:
     
     ```json
     {
         "map": {
-            "ngx-smart-popover": "node_modules/ngx-smart-popover"
+            "@easiangular/ngx-smart-popover": "node_modules/@easiangular/ngx-smart-popover"
         },
         "packages": {
-            "ngx-smart-popover": { "main": "index.js", "defaultExtension": "js" }
+            "@easiangular/ngx-smart-popover": { "main": "index.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -88,7 +88,7 @@ Import the bootstrap styles as a starting point. This module ships with both a C
 
 ```typescript
 import { Component } from '@angular/core';
-import { PopoverModule } from 'ngx-smart-popover';
+import { PopoverModule } from '@easiangular/ngx-smart-popover';
 
 @Component({
   selector: 'app',

@@ -1,6 +1,6 @@
 {
-    "name": "ngx-smart-cumover",
-    "version": "16.0.0",
+    "name": "@easiangular/ngx-smart-popover",
+    "version": "16.0.1",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Jakartoine/ngx-smart-popover.git"
@@ -17,7 +17,7 @@
         "tooltip"
     ],
     "author": {
-        "name": "easi",
+        "name": "Easi",
         "email": "aruc@easi.net"
     },
     "license": "MIT",

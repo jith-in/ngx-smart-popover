@@ -1,5 +1,5 @@
 {
-  "name": "ngx-smart-cumover",
+  "name": "ngx-smart-popover",
   "version": "1.5.0",
   "resolutions": {
     "normalize-url": "6.1.0",
@@ -13,8 +13,8 @@
     "build": "ng build",
     "build:all": "ng build --configuration production && npm run build:lib",
     "build:lib": "ng build ngx-smart-popover --configuration production  && npm run build:lib:scss && npm run build:lib:css",
-    "build:lib:css": "sass ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-cumover/css/popover-content.component.css",
-    "build:lib:scss": "mkdir ./dist/ngx-smart-cumover/scss/ && cp ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-cumover/scss/popover-content.component.scss",
+    "build:lib:css": "sass ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-popover/css/popover-content.component.css",
+    "build:lib:scss": "mkdir ./dist/ngx-smart-popover/scss/ && cp ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-popover/scss/popover-content.component.scss",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -23,7 +23,7 @@
     "run": "ng-packagr -p package.json",
     "publish": "cp README.md dist/ngx-smart-popover/README.md && cd dist/ngx-smart-popover && npm publish"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "16.2.12",
     "@angular/common": "16.2.12",
